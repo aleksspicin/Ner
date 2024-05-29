@@ -2,7 +2,7 @@ from flask import Flask, request
 import spacy
 from spacy import displacy
 
-nlp = spacy.load('nlp_model_big5412_10itt')
+nlp = spacy.load('nlp_model_big_bez_ydaleniya_50itt')
 app = Flask(__name__)
 
 @app.route('/process',methods=["GET","POST"])
